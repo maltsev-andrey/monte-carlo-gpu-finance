@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (не загружаем большие файлы данных)
+data/raw/*.csv
+data/processed/*.npy
+*.h5
+*.hdf5
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Compiled files
+*.pyc
+*.pyo
+
+# GPU cache
+.cupy/

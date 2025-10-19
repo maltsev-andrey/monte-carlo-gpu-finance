@@ -1,0 +1,24 @@
+```
+Project structure:
+```
+02-monte-carlo-finance/
+├── README.md              # description
+├── requirements.txt       # dependencies Python
+├── src/
+│   ├── __init__.py
+│   ├── data_loader.py     # load data
+│   ├── monte_carlo_cpu.py # CPU version
+│   ├── monte_carlo_gpu_naive.py    # simple GPU version
+│   ├── monte_carlo_gpu_optimized.py # GPU optimised
+│   └── visualization.py   # diagramms
+├── data/
+│   ├── raw/              # original data
+│   └── processed/        # processed data
+├── notebooks/
+│   └── exploration.ipynb # Jupyter for test
+├── benchmarks/
+│   └── results.md        # test results
+├── docs/
+│   └── theory.md         # Theory & formula
+└── tests/
+    └── test_monte_carlo.py
