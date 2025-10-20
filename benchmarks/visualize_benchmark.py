@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Visualization of Monte Carlo GPU vs CPU benchmark results
-Creates professional charts for README and presentations
+Creates charts for README and presentations
 """
 
 import matplotlib.pyplot as plt
@@ -199,7 +199,7 @@ def create_benchmark_visualization():
     # Save figure
     plt.savefig('benchmarks/benchmark_results.png', dpi=300, bbox_inches='tight', 
                 facecolor='white', edgecolor='none')
-    print("✅ Saved: benchmarks/benchmark_results.png")
+    print("Saved: benchmarks/benchmark_results.png")
     
     # Also save a simplified version for README
     create_simple_comparison()
@@ -242,9 +242,9 @@ def create_simple_comparison():
     
     plt.savefig('benchmarks/benchmark_simple.png', dpi=200, bbox_inches='tight',
                 facecolor='white', edgecolor='none')
-    print("✅ Saved: benchmarks/benchmark_simple.png")
+    print("Saved: benchmarks/benchmark_simple.png")
 
 if __name__ == "__main__":
     print("Creating benchmark visualizations...")
     create_benchmark_visualization()
-    print("✅ All visualizations created successfully!")
+    print("All visualizations created successfully!")
