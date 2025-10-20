@@ -1,0 +1,44 @@
+======================================================================
+Monte Carlo Simulation - GPU vs CPU Benchmark
+======================================================================
+Date: 2025-10-20
+Hardware: Tesla P100-PCIE-16GB
+CUDA Version: 12.4
+Driver: 550.90.07
+
+  CPU VERSION:
+----------------------------------------------------------------------
+Start CPU simulation....
+  Simulations: 1,000,000
+  Steps: 252
+ Simulation completed in 16.1161 sec.
+  Time computation: 16.1207 sec
+
+  GPU VERSION (CuPy):
+----------------------------------------------------------------------
+ GPU simulation (CuPy)...
+ Simulations: 1,000,000
+ Completed for 1.2179 sec.
+  Time computation: 1.2179 sec
+
+======================================================================
+ COMPARISON RESULTS
+======================================================================
+ Speedup: 13.24x
+  CPU time: 16.1207 sec
+  GPU time: 1.2179 sec
+
+ Call option:
+  CPU: $10.0111
+  GPU: $9.9735
+  Difference: $0.0375
+
+ Put option:
+  CPU: $9.8768
+  GPU: $9.8904
+  Difference: $0.0136
+
+ VaR (95%):
+  CPU: 32.51%
+  GPU: 32.46%
+======================================================================
