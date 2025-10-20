@@ -87,24 +87,24 @@ python benchmark_scaling.py
 python profile_gpu.py
 
 ## Project Structure
-----------------------------
+````
 monte-carlo-gpu-finance/
 ├── src/
-│   ├── monte_carlo_cpu.py      # CPU implementation
-│   ├── monte_carlo_gpu.py      # GPU implementation (CuPy)
-│   ├── monte_carlo_gpu_naive.py # Basic GPU version
+│   ├── monte_carlo_cpu.py           # CPU implementation
+│   ├── monte_carlo_gpu.py           # GPU implementation (CuPy)
+│   ├── monte_carlo_gpu_naive.py     # Basic GPU version
 │   ├── monte_carlo_gpu_optimized.py # Optimized version
-│   └── data_loader.py          # Market data loader
+│   └── data_loader.py               # Market data loader
 ├── benchmarks/
-│   ├── performance_benchmark.py # Performance measurements
-│   ├── scaling_test.py          # Scalability tests
-│   └── results/                 # Test results
+│   ├── performance_benchmark.py     # Performance measurements
+│   ├── scaling_test.py              # Scalability tests
+│   └── results/                     # Test results
 ├── notebooks/
-│   └── analysis.ipynb           # Jupyter notebook with analysis
+│   └── analysis.ipynb               # Jupyter notebook with analysis
 ├── tests/
-│   └── test_accuracy.py        # Accuracy tests
+│   └── test_accuracy.py             # Accuracy tests
 └── requirements.txt
-----------------------------
+````
 
 ## Measurement Methodology
 
