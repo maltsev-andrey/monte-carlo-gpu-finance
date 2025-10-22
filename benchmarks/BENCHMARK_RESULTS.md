@@ -38,4 +38,3 @@ Successfully achieved **13.24x speedup** with GPU acceleration while maintaining
 ### Next Steps
 1. Optimize for larger datasets (5M+ simulations)
 2. Implement float32 optimization
-3. Add multi-GPU support
