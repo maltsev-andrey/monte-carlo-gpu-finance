@@ -1,4 +1,4 @@
-# Monte Carlo Option Pricing - GPU Accelerated 🚀
+# Monte Carlo Option Pricing - GPU Accelerated 
 
 [![GPU](https://img.shields.io/badge/GPU-Tesla%20P100-76B900.svg)](https://www.nvidia.com/en-us/data-center/tesla-p100/)
 [![CUDA](https://img.shields.io/badge/CUDA-12.4-green.svg)](https://developer.nvidia.com/cuda-toolkit)
