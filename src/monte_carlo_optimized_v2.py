@@ -388,5 +388,5 @@ if __name__ == "__main__":
         print(f"\nCUDA kernel version failed: {e}")
     
     print("\n" + "="*60)
-    print("✓ SIMULATION COMPLETE!")
+    print("SIMULATION COMPLETE!")
     print("="*60)
